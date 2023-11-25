@@ -1,2 +1,2 @@
-# CP
+# Competitive Programming
 cp resources.
