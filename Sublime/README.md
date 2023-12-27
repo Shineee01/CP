@@ -3,7 +3,7 @@
 - Theme : Monokai Pro
 
 # C++ Compiler Build.
-```json
+```bash
 {
     "cmd": ["g++.exe", "-std=c++17", "-o", "$file_base_name", "$file", "&&", "start", "cmd", "/c", "$file_base_name & echo. & echo. & pause"],
     "shell": true,
@@ -11,7 +11,7 @@
 }
 ```
 # Completion 1
-```json
+```bash
 {
     "scope": "source.c++",
     "completions": [
@@ -23,7 +23,7 @@
 }
 ```
 # Completion 2
-```json
+```bash
 {
     "scope": "source.c++",
     "completions": [
@@ -35,7 +35,7 @@
 }
 ```
 # Preferences
-```json
+```bash
 {
   "theme": "Agila Monokai.sublime-theme",
   "color_scheme": "Packages/Agila Theme/Markdown/Monokai Markdown.tmTheme",
