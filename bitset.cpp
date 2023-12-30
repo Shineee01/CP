@@ -20,5 +20,5 @@ int main(){
     cout << a << " ^ " << b << " = " << (a ^ b) << " ------> " << biner(a) << " ^ " << biner(b) << " = " << biner(a ^ b) << endl << endl;
     cout << a << " | " << b << " = " << (a | b) << " ------> " << biner(a) << " | " << biner(b) << " = " << biner(a | b) << endl << endl;
     cout << a << " >> " << b << " = " << (a >> b) << " ------> " << biner(a) << " >> " << biner(b) << " = " << biner(a >> b) << endl << endl;
-    cout << a << " << " << b << " = " << (a << b) << " ------> " << biner(a) << " << " << biner(b) << " = " << biner(a >> b) << endl << endl;
+    cout << a << " << " << b << " = " << (a << b) << " ------> " << biner(a) << " << " << biner(b) << " = " << biner(a << b) << endl << endl;
 }
