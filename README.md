@@ -9,6 +9,9 @@ using namespace std;
 #define endl '\n'
 #define debug(x) cerr << #x << " --> " << x << endl;
 #define shine ios_base::sync_with_stdio(false), cout.tie(nullptr), cin.tie(nullptr);
+const ll mod = 1e9 + 7;
+const ll inf = 1e18;
+const ll mxn = 2e5 + 5;
 
 int main() {
     shine
